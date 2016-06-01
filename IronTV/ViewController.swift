@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         do{
             try sound2 = AVAudioPlayer(data: soundData2!)
         }catch{
-            print("got a terrible error\(error)")
+            print("got a different terrible error\(error)")
         }
         
         
